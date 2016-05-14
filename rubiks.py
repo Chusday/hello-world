@@ -24,6 +24,8 @@ def rotate (arr, face):
             order = [0, 1, 2, 3, 4, 5, 33, 34, 35, 9, 10, 11, 12, 13, 14, 6, 7, 8, 18, 19, 20, 21, 22, 23, 15, 16, 17, 27, 28, 29, 30, 31, 32, 24, 25, 26, 36, 37, 38, 39, 40, 41, 42, 43, 44, 51, 48, 45, 52, 49, 46, 53, 50, 47]
         else:
             print("Error. Move not recognised.")
+            return 0;
+
         newOrder = [arr[x] for x in order]
         return newOrder
     
